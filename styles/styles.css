@@ -17,12 +17,12 @@ h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 15px #333;
 }
 
 p {
@@ -30,26 +30,18 @@ p {
 }
 
 aside {
-    width: 300px;
-    margin: 16px;
+    width: 20em;
+    margin: 1em;
     border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 16px;
+    padding: 1em;
     background-color: rgb(72, 185, 222);
-    color: black;
+    color: #333;
     text-align: center;
 }
 
 aside img {
     width: 200px;
     height: auto;
-}
-
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 16px;
-    box-shadow: 0 0 15px #333;
 }
 
 footer {
