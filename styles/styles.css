@@ -1,5 +1,5 @@
 nav {
-    background: darkblue;
+    background-color: darkblue;
     padding: 10px;
 }
 
@@ -26,7 +26,7 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 aside {
@@ -40,17 +40,16 @@ aside {
 }
 
 aside img {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
 main img {
     width: 150px;
     height: auto;
-}
-
-p {
-    padding: 0;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 16px;
+    box-shadow: 0 0 15px #333;
 }
 
 footer {
