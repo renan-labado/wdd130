@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --background-color: #00008b;
     --heading-text-color: #00008b;
@@ -22,7 +28,8 @@ main {
 }
 
 h1 {
-    color: var(--heading-text-color)
+    color: var(--heading-text-color);
+    padding: 10px;
 }
 
 main img {
@@ -31,29 +38,44 @@ main img {
     border: 1px solid var(--border-color);
     padding: 2px;
     box-shadow: 0 0 15px #333;
+    float: right;
 }
 
 p {
     padding: 0;
+    margin: 20px;
 }
 
 aside {
     width: 20em;
-    margin: var(--aside-measurement);
-    border: 1px solid var(--border-color);
-    padding: var(--aside-measurement);
-    background-color: var(--aside-background-color);
-    color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
-    width: 200px;
+    width: 100%;
     height: auto;
+    text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3rem;
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    background-color: var(--aside-background-color);
+    color: #333;
 }
