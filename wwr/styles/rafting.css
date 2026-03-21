@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #46bce4;
+    --primary-color: #5e1722;
     --secondary-color: lightgreen;
-    --accent1-color: gold;
+    --accent1-color: #1354ae;
     --accent2-color: brown;
     --heading-font: "Times New Roman", sans-serif;
     --body-font: Arial;
@@ -23,6 +23,10 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+header img {
+    content: ;
 }
 
 h1,
@@ -50,4 +54,33 @@ article {
 .hero img {
     display: block;
     width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+add.hero {
+    position: absolute;
+    background-color: var(--accent1-color);
+    color: #fff;
+    opacity: 0.7;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    box-shadow: 5px grey;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 3px;
+
 }
