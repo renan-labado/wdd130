@@ -83,7 +83,9 @@ aside h2 {
     left: 50%;
     transform: translateX(-50%);
     top: 3rem;
-    color: white;
+    color: #fff;
+    padding: 16px;
+    background-color: #00640099;
 }
 
 a {
