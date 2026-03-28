@@ -26,7 +26,7 @@ footer {
 }
 
 header img {
-    width: 180px;
+    width: 100%;
     height: auto;
     padding: 2px;
     border: 1px solid var(--border-color);
@@ -91,24 +91,37 @@ h1 {
 /* flex and grid update */
 header {
     display: grid;
-    grid-template-columns: 120px 1fr 1fr;
-    margin: 1rem auto;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid black;
+    grid-template-columns: 180px auto;
+    padding: 1rem;
+    border: 1px solid black;
     align-items: center;
+    background-color: rgba(128, 128, 128, 0.477);
 }
 
 .navigation {
     display: flex;
     list-style: none;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .navigation a {
     display: block;
     text-decoration: none;
     color: var(--accent1-color);
-    font-size: 1.3rem;
-    padding-left: 100px;
+    font-size: 1.5rem;
     justify-content: flex-end;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+section h2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
