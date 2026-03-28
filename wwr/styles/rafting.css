@@ -116,12 +116,28 @@ header {
     text-decoration: underline;
 }
 
-section {
+.history {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: aqua;
 }
 
-section h2 {
+.history h2 {
+    display: flex;
+    grid-column: 1/4;
+    justify-content: center;
+}
+
+.adventure {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: rgb(235, 166, 220);
+}
+
+.adventure h2 {
+    display: flex;
+    grid-column: 1/6;
+    justify-content: center;
 }
