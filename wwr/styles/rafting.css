@@ -145,6 +145,7 @@ header {
     gap: 2em;
     max-width: 100%;
     padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 .adventure img {
