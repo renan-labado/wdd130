@@ -2,7 +2,7 @@
     --primary-color: #5e1722;
     --text-color: #fff;
     --accent1-color: #1354ae;
-    --border-color: black;
+    --border-color: #000000;
     --heading-font: "Times New Roman", sans-serif;
     --body-font: Arial;
 }
@@ -93,9 +93,9 @@ header {
     display: grid;
     grid-template-columns: 180px auto;
     padding: 1rem;
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     align-items: center;
-    background-color: rgba(128, 128, 128, 0.477);
+    background-color: #00ffff;
     margin-bottom: 50px;
 }
 
@@ -122,7 +122,7 @@ header {
     grid-template-columns: 2fr 1fr 2fr;
     margin: 50px 0;
     gap: 2em;
-    background-color: aqua;
+    background-color: #00ffff;
     padding-bottom: 25px;
 }
 
