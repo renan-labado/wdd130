@@ -96,6 +96,7 @@ header {
     border: 1px solid black;
     align-items: center;
     background-color: rgba(128, 128, 128, 0.477);
+    margin-bottom: 50px;
 }
 
 .navigation {
@@ -119,25 +120,55 @@ header {
 .history {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 1fr 1fr;
+    margin: 50px 0;
+    gap: 2em;
     background-color: aqua;
+    padding-bottom: 25px;
 }
 
 .history h2 {
-    display: flex;
-    grid-column: 1/4;
-    justify-content: center;
+    grid-column: 1/-1;
+    grid-row: 1;
+    justify-self: center;
+    padding: 1em;
+}
+
+.history img {
+    max-width: 100%;
 }
 
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    background-color: rgb(235, 166, 220);
+    grid-template-rows: 1fr;
+    background-color: #eba6dc;
+    margin: 50px 0;
+    gap: 2em;
+}
+
+.adventure {
+    grid-row: 2;
+    grid-column: 1/2
 }
 
 .adventure h2 {
+    grid-column: 1/-1;
+    grid-row: 1;
+    justify-self: center;
+    padding: 1em;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    background-color: #ffdbf8;
+}
+
+.socialmedia {
     display: flex;
-    grid-column: 1/6;
-    justify-content: center;
+    justify-content: flex-end;
+    gap: 1rem;
 }
