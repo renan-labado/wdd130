@@ -140,7 +140,7 @@ header {
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    background-color: #eba6dc;
+    background-color: #ffdbf8;
     margin: 50px 0;
     gap: 2em;
     max-width: 100%;
