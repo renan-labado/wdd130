@@ -33,7 +33,7 @@ header img {
     box-shadow: 0 0 20px #808080;
 }
 
-h1,
+.hero h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color)
@@ -61,7 +61,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -178,3 +178,5 @@ footer {
     justify-content: flex-end;
     gap: 1rem;
 }
+
+/* Contact Us Design */
