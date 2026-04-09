@@ -301,3 +301,28 @@ textarea {
 .purpose input {
     width: 50px;
 }
+
+/* Trips page */
+
+.tripdetails {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #ffdbf8;
+    margin: 50px 0;
+    gap: 2em;
+    max-width: 100%;
+
+}
+
+.tripdetails h2 {
+    grid-column: 1/-1;
+    grid-row: 1;
+    justify-self: center;
+    padding: 1em;
+}
+
+.tripdetails img {
+    width: 100%;
+    justify-self: center;
+    display: flex;
+}
