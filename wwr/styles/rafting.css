@@ -21,7 +21,7 @@ body {
 header,
 main,
 footer {
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -96,7 +96,6 @@ header {
     border: 1px solid var(--border-color);
     align-items: center;
     background-color: #00ffff;
-    margin-bottom: 50px;
 }
 
 .navigation {
@@ -199,10 +198,6 @@ footer {
     display: block;
     color: #000;
     padding: 3px;
-}
-
-.contact {
-    margin-bottom: 25px;
 }
 
 .serveyou {
@@ -325,4 +320,59 @@ textarea {
     width: 100%;
     justify-self: center;
     display: flex;
+}
+
+.contact-table {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-table table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+th {
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.booknow {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #d3d3d39f;
+    max-width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.booknow h2 {
+    grid-column: 1/-1;
+    grid-row: 1;
+    justify-self: center;
+    padding: 1em;
+}
+
+.booknow p {
+    align-self: center;
+    justify-content: center;
+}
+
+.contactbutton {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 1rem;
+    margin: .5rem;
+    background: #00ffff;
+    max-width: 500px;
 }
