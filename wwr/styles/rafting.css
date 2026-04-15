@@ -247,7 +247,7 @@ footer {
 .serveyou h2,
 .activities h2,
 .booknow h2,
-.tripdetails h2 {
+.headerdetails {
     grid-column: 1/-1;
     grid-row: 1;
     justify-self: center;
@@ -348,15 +348,125 @@ textarea {
 
 .tripdetails {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: .25fr repeat(6, 1fr);
     background-color: #a4bfda;
     margin: 50px 0;
-    gap: 2em;
     max-width: 100%;
+    padding-left: 30px;
+}
+
+/* raft n camps details grids */
+.trip-card {
+    background-color: #efeff0;
+    max-width: 85%;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    margin-left: 28px;
+}
+
+.headerdetails {
+    font-size: larger;
+}
+
+.trip-card h2 {
+    font-size: .5rem;
+}
+
+.trip-card p {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-self: center;
+}
+
+.price {
+    justify-content: flex-end;
+    align-self: flex-end
+}
+
+/* 1st photo and caption */
+.photo1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.first {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+/* 2nd photo and caption */
+.photo2 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.second {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+/* 3rd photo and caption */
+.photo3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.third {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+/* 4th photo and caption */
+.photo4 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.fourth {
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+
+/* 5th photo and caption */
+.photo5 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+
+.fifth {
+    grid-column: 2/3;
+    grid-row: 7/8;
+}
+
+/* 6th photo and caption */
+.photo6 {
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
+.sixth {
+    grid-column: 3/4;
+    grid-row: 6/7;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.tripdetails h2 {
+    display: flex;
+    padding: 1em;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    justify-self: center;
 }
 
 .tripdetails img {
-    width: 100%;
+    width: 85%;
     justify-self: center;
     display: flex;
 }
