@@ -92,6 +92,7 @@ article {
     color: var(--text-color);
     opacity: 0.7;
     bottom: 1em;
+    left: 3.5em
 }
 
 .hero article img {
@@ -448,7 +449,8 @@ th {
     font-size: 1.2rem;
 }
 
-.bookbutton a {
+.bookbutton a,
+.overlapbutton a {
     text-decoration: none;
 }
 
@@ -501,4 +503,61 @@ th {
     border-collapse: collapse;
     text-decoration: underline;
     font-weight: 700;
+}
+
+.morethanthrill {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    background-color: #7e2d2d;
+    height: 600px;
+}
+
+.morethanthrill img {
+    width: 500px;
+    grid-column: 2/5;
+    grid-row: 2/3;
+}
+
+.overlap {
+    grid-column: 4/8;
+    display: flex;
+    grid-row: 2/3;
+    flex-direction: column;
+    background-color: #afeeee;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.overlap h2 {
+    text-align: center;
+}
+
+.overlapbutton {
+    display: flex;
+    width: 275px;
+    padding: 1.2rem;
+    margin: 1rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #ec97cc;
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.overlapbutton a {
+    color: #000;
+}
+
+.overlapbutton:hover {
+    text-decoration: underline;
+    color: #0000ff;
+    background-color: #d61f90;
+}
+
+.overlapbutton:hover a {
+    color: #0000ff;
 }
