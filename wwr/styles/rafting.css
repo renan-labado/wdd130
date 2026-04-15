@@ -161,7 +161,7 @@ header {
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    background-color: #ffdbf8;
+    background-color: #a4bfda;
     margin: 50px 0;
     gap: 2em;
     max-width: 100%;
@@ -489,20 +489,48 @@ th {
 /* pictures */
 .rapid img,
 .river img,
-.camping img {
+.camping img,
+.adv img,
+.history img {
     padding: .2rem;
     border: 10px solid #fff;
     box-shadow: 0 0 45px black;
 }
 
+.history img {
+    padding: 0;
+    border: none;
+}
+
 .rapid:hover,
 .river:hover,
-.camping:hover {
+.camping:hover,
+.adv:hover,
+.history img:hover,
+.serveyou figure:hover {
     transform: scale(1.2);
     transition: all 0.2s ease-in-out 0.5ms;
     border-collapse: collapse;
     text-decoration: underline;
     font-weight: 700;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.serveyou figure:hover {
+    text-decoration: none;
+}
+
+.adv:hover figcaption {
+    color: #000;
+}
+
+.adv figcaption {
+    color: #fff;
+}
+
+.pic1 {
+    text-align: center;
 }
 
 .morethanthrill {
