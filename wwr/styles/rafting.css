@@ -650,6 +650,8 @@ th {
     align-items: center;
     background-color: #7e2d2d;
     height: 600px;
+    margin: 0;
+    margin-bottom: 3rem;
 }
 
 .morethanthrill img {
@@ -674,7 +676,7 @@ th {
 
 .overlapbutton {
     display: flex;
-    width: 275px;
+    width: 280px;
     padding: 1.2rem;
     margin: 1rem;
     padding-left: 100px;
