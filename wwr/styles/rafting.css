@@ -274,7 +274,7 @@ footer {
     justify-content: center;
     display: flex;
     padding: 1rem;
-    color: black;
+    color: #000;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -492,7 +492,7 @@ td {
 th {
     font-weight: 800;
     font-size: 1.3rem;
-    color: black;
+    color: #000;
     background-color: #00ffff;
 }
 
@@ -604,7 +604,7 @@ th {
 .history img {
     padding: .2rem;
     border: 10px solid #fff;
-    box-shadow: 0 0 45px black;
+    box-shadow: 0 0 45px #000;
 }
 
 .history img {
